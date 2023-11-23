@@ -25,15 +25,17 @@ header h1 {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   text-align: center;
+  padding: 10px 0;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;
+  height: auto; /* Let the height adjust based on content and padding */
+  background-color: #dbdada;
 }
 
 footer p {
-  color: #ccc;
+  color: #777;
 }
 .note {
   background: #fff;
