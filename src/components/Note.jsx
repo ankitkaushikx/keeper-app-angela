@@ -12,13 +12,6 @@ function Note(props) {
       >
         Delete
       </button>
-      <button
-        onClick={(event) => {
-          props.onClicked(props.id);
-        }}
-      >
-        Delete
-      </button>
     </div>
   );
 }
